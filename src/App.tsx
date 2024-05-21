@@ -5,9 +5,7 @@ import {
   Navigate,
   Router
 } from 'react-router-dom'
-import { MainLayout } from './components/MainLayout'
 import { Chat } from './pages'
-import Main from './Main'
 
 interface RouteType {
   path: string
@@ -23,7 +21,6 @@ const router: RouteType[] = [
 
 const App: React.FC = () => {
   return (
-    // // <MainLayout>
     <BrowserRouter>
       <Routes>
         {router.map((route, index) => (
@@ -31,17 +28,6 @@ const App: React.FC = () => {
         ))}
       </Routes>
     </BrowserRouter>
-    // // </MainLayout>
-
-    // <div className="App bg-back">
-    //   <MainLayout>
-    //     <Routes>
-    //       {router.map((route, index) => (
-    //         <Route key={index} path={route.path} element={<route.element />} />
-    //       ))}
-    //     </Routes>
-    //   </MainLayout>
-    // </div>
   )
 }
 
