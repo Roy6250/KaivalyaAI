@@ -102,7 +102,7 @@ const ChatWindow: React.FC = () => {
   }, [data])
 
   return (
-    <div className="bg-[url('src/assets/gg.jpg')] bg-cover bg-center">
+    <div className="bg-[url('https://miro.medium.com/v2/resize:fit:1400/1*X47CqruJXXq_IGbV9MXhLw.jpeg')] bg-cover bg-center">
       <div className="mx-auto  h-full w-full max-w-7xl  px-4 py-3 sm:px-6 lg:px-8">
         {/* We've used 3xl here, but feel free to try other max-widths based on your needs */}
         <div className="bg-grey/20 z-100 mx-72  flex h-screen flex-col overflow-auto border-2 bg-white shadow-lg ring-1 ring-black/5">

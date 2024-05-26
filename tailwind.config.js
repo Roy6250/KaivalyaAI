@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
@@ -20,6 +19,9 @@ module.exports = {
        maxHeight: {
         '500': '500px',
         '600': '600px',
+      },
+      backgroundImage: {
+        'hero': "url('./src/assets/gg.jpg')",
       },
     },
   },
