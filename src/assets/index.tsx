@@ -1,3 +1,3 @@
 import img from './img.png'
-
-export { img }
+import background from './background.jpeg'
+export { img, background }

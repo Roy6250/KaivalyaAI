@@ -12,7 +12,7 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="border-b-2	 border-black bg-white bg-gradient-to-r from-[#a1ffce]	to-[#faffd1]	">
+    <header className="border-b-2 border-black bg-[radial-gradient(circle,_rgba(22,64,150,1)_24%,_rgba(14,119,213,1)_53%,_rgba(12,131,218,1)_59%,_rgba(0,255,192,1)_100%)]">
       <nav
         className=" m-0 flex   justify-between p-6 lg:px-8"
         aria-label="Global"
@@ -27,7 +27,7 @@ export default function Example() {
             className="w-auto pl-10
 text-2xl font-medium leading-8 text-black"
           >
-            Audio Summarizer
+            {/* Audio Summarizer */}
           </p>
         </div>
         <div className="flex lg:hidden">
@@ -47,7 +47,7 @@ text-2xl font-medium leading-8 text-black"
               href={item.href}
               className="text-sm font-semibold leading-6 text-gray-900"
             >
-              {item.name}
+              {/* {item.name} */}
             </a>
           ))}
           {/* <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
